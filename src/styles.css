@@ -1,0 +1,113 @@
+/* *{
+    box-sizing: border-box;
+} */
+body{
+    margin: 0;
+   
+    /* background-image:url(../public/pexels-wladislawa-schröder-17963791.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.nav{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    align-items: center;
+    padding: .25rem;
+
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.nav li.active{
+    background-color: #555;
+}
+.nav li:hover{
+    background-color: #3e0707;
+}
+
+.form{
+    text-align: center;
+    justify-content: center;
+    height: 250px;
+    width: 350px;
+    padding-top: 50px;
+    background-image:url(../public/pexels-wladislawa-schröder-17963791.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+
+.lk{
+   
+    padding-left: 500px;
+    padding-top: 120px;
+    background-image:url(../public/pexels-wladislawa-schröder-17963791.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 620px;
+   
+}
+.lk1{
+    padding-left: 500px;
+    padding-top: 40px;
+    background-image:url(../public/logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 620px;
+}
+.form1{
+    height: 500px;
+    width: 400px;
+    padding-top: 20px;
+    background-image:url(../public/logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+.button{
+   padding-left: 150px;
+}
+h2{
+   padding-left: 125px;
+   font-family: bold;
+   color: white;
+   font-style: bold;
+}
+.lk2{
+   
+    padding-left: 500px;
+    padding-top: 100px;
+    background-image:url(../public/pexels-wladislawa-schröder-17963791.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+   
+}
+.form2{
+    text-align: center;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+    padding-top: 50px;
+    background-image:url(../public/pexels-wladislawa-schröder-17963791.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+
+
+  
