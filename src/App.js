@@ -7,6 +7,8 @@ import AddStudent from './components/AddStudent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  Students from './components/Students';
 import Dashboard from './components/Dashboard';
+import PatchStudent from './components/PatchStudent'
+import DelStudent from './components/DelStudent';
 
 
 
@@ -24,6 +26,10 @@ function App() {
         <Route path="/AddStudent" element={<AddStudent/>}/>
         <Route path="/Students" element={<Students/>}/>
         <Route path="/Dashboard" element={<Dashboard/>}/>
+        {/* <Route path="/PatchStudent/:id" element={<PatchStudent/>}/> */}
+        <Route path="/PatchStudent/:id" element={<PatchStudent />} />
+
+        <Route path="/DelStudents/:id" element={<DelStudent/>}/>
 
     </Routes>
     </div>

@@ -19,6 +19,12 @@ const Navbar=()=>{
                <li>
                 <Link to="/Dashboard"> Dashboard</Link>
                </li>
+               <li>
+                <Link to="/PatchStudent">PatchStudent</Link>
+               </li>
+               <li>
+                <Link to="/DelStudent">DeleteStudent</Link>
+               </li>
            
         </ul>
     </nav>

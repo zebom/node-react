@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer,toast } from "react-toastify";
 
 const AddStudent=()=>{
-
+ 
     const [data, setData]=useState({
         firstname: "",
         lastname: "",
@@ -19,11 +19,12 @@ const AddStudent=()=>{
         e.preventDefault()
         axios.post('http://localhost:4000/students', data)
         .then(res=>{
-            toast.success('New Student added successfully' ,{
+            toast.success(' Student added successfully' ,{
                 position:toast.POSITION.TOP_RIGHT,
                 autoClose:3000,
             });
-            setData(data);
+            // setData(data);
+            window.location.href ='/Students';
         })
         .catch(err => {
             toast.error('There is an error with your input',{
@@ -51,7 +52,7 @@ const AddStudent=()=>{
           <Form.Label>Gender</Form.Label>
           <div>
             <Form.Check 
-              inline 
+               inline 
               label="Male" 
               type="radio" 
               name="gender" 
