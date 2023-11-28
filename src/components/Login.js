@@ -31,7 +31,7 @@ const Login=()=>{
                 position:toast.POSITION.TOP_CENTER,
                 autoClose:3000,
             });
-            window.location.href ='/AddStudent';
+            window.location.href ='/Dashboard';
             // setLogin(login);
         })
         .catch(err => {
@@ -45,7 +45,7 @@ const Login=()=>{
     return(
         <div> 
             <div className="lk2">
-                <h2> Login</h2>
+                <h1> Login</h1>
             <Form onSubmit={saveStudent} className="form">
             <Form.Group className="input">
                     <Form.Control type="text" name="email" onChange={handleEmail} value={email} placeholder="EMAIL" required/>     

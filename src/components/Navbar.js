@@ -10,21 +10,21 @@ const Navbar=()=>{
             <li>
              <Link to="/Login">login</Link>
                </li>
-               <li>
+               {/* <li>
                 <Link to="/AddStudent">Add Student</Link>
                </li>
                <li>
                 <Link to="/Students"> Students</Link>
-               </li>
+               </li> */}
                <li>
-                <Link to="/Dashboard"> Dashboard</Link>
+                {/* <Link to="/Dashboard"> Dashboard</Link> */}
                </li>
-               <li>
-                <Link to="/PatchStudent">PatchStudent</Link>
+               {/* <li> */}
+                {/* <Link to="/PatchStudent/:id">PatchStudent</Link>
                </li>
                <li>
                 <Link to="/DelStudent">DeleteStudent</Link>
-               </li>
+               </li> */}
            
         </ul>
     </nav>

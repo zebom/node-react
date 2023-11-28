@@ -81,7 +81,7 @@ body{
 .button{
    padding-left: 150px;
 }
-h2{
+h1{
    padding-left: 125px;
    font-family: bold;
    color: white;
@@ -159,4 +159,37 @@ td, Link{
 }
 .delpage1 button:hover{
     color: rgba(255, 255, 0, 0.158);
+}
+/* Dashboard.css */
+
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.dashboard-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard-links li {
+    margin-bottom: 10px;
+}
+
+.dashboard-links a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.dashboard-links a:hover {
+    color: #2070a0;
+}
+.gome{
+    background-color: #2d3b2f;
+    height: 610px;
 }

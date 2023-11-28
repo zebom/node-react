@@ -94,7 +94,7 @@ const Register=()=>{
         e.preventDefault()
         axios.post('http://localhost:4000/user', {email, password})
         .then(res=>{
-            toast.success('logged in successfully' ,{
+            toast.success('registeration successfully' ,{
                 position:toast.POSITION.TOP_CENTER,
                 autoClose:3000,
             });
@@ -112,7 +112,7 @@ const Register=()=>{
     return(
         <div> 
             <div className="lk2">
-                <h2> Register</h2>
+                <h1> Register</h1>
             <Form onSubmit={saveStudent} className="form">
             <Form.Group className="input">
                     <Form.Control type="text" name="email" onChange={handleEmail} value={email} placeholder="EMAIL" required/>     

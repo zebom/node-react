@@ -1,11 +1,13 @@
 const Home=()=>{
     return(
-        <div style={{
-            backgroundImage: "url(../public/logo.jpg)",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-          }}>
-            home
+        <div className="gome">
+            
+
+            <h1>welcome to my website</h1>
+            <h4>click the link to register to know more about us!</h4>
+
+
+
         </div>
     )
 }

@@ -38,7 +38,7 @@ const AddStudent=()=>{
     return(
         <div>
             <div className="lk2">
-                <h2> Add Student</h2>
+                <h1> Add Student</h1>
             <Form   onSubmit={saveStudent} className="form2">
             <Form.Group className="input">
                     <Form.Control type="text" name="firstname"  onChange={handleChange}  value={data.firstname}  placeholder="enter firstname" required/>     

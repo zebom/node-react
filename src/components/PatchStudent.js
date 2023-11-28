@@ -20,6 +20,7 @@ const PatchStudent = () => {
   const updateStudent = (updatedData) => {
     axios.patch(`http://localhost:4000/students/${id}`, updatedData)
       .then(() => {
+        
         // Use useNavigate to navigate back to the Students page after updating
         navigate('/Students');
       })
